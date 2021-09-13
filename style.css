@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+body {
+  /* Background, and centering */
+  background-color: hsl(185, 75%, 39%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Kumbh Sans", sans-serif;
+
+  /* Background Circles */
+  background-image: url("./images/bg-pattern-top.svg"),
+    url("./images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 65% 100%;
+  background-position: top -400px left -220px, bottom -500px right -180px;
+}
+
+.box-shadow {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.grey {
+  color: hsl(0, 0%, 59%);
+}
+.top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+}
+.top img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100%;
+}
+/* Middle part, Avatar icon, Name,vim index.html Age, City */
+.middle {
+  text-align: center;
+  background-color: white;
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.middle img {
+  border: 5px solid white;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 25px;
+  margin-top: -59px;
+}
+
+/* Bottom part of image, Folowers, Likes, Photos */
+.bottom {
+  border-top: 1px solid hsla(0, 0%, 59%, 0.2);
+  padding: 25px 0 25px 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/* Commentar */
+@media screen and (max-width: 640px) {
+  body {
+    background-position: top -300px left -350px, bottom -300px right -420px;
+    background-size: 150%, 160% 90%;
+  }
+  .box-shadow {
+    width: 88%;
+  }
+}
