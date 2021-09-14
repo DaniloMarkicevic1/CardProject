@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 18px;
 }
 
 body {
@@ -14,49 +13,67 @@ body {
   font-family: "Kumbh Sans", sans-serif;
 
   /* Background Circles */
-  background-image: url("./images/bg-pattern-top.svg"),
-    url("./images/bg-pattern-bottom.svg");
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 65% 100%;
   background-position: top -400px left -220px, bottom -500px right -180px;
 }
 
 .box-shadow {
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
+/* Text edits */
+.number {
+  font-weight: 400;
+  color:  hsl(227, 10%, 46%);
+}
 .bold {
   font-weight: bold;
+  font-size: 18px;
 }
-
-.grey {
-  color: hsl(0, 0%, 59%);
+.middle-grey {
+  color: hsl(227, 10%, 46%);
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 13px;
 }
+.bottom-grey {
+  color:  hsl(227, 10%, 46%);
+  font-weight: 400;
+  font-size: 10px;
+  padding-top: 6px;
+  letter-spacing: 2px;
+}
+.text-padding {
+  padding-top: 10px;
+}
+/* ------- */
 .top {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   background-color: white;
 }
 .top img {
   width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  height: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  min-height: 100%;
 }
 /* Middle part, Avatar icon, Name,vim index.html Age, City */
 .middle {
   text-align: center;
   background-color: white;
   position: relative;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .middle img {
   border: 5px solid white;
   border-radius: 50%;
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   margin-top: -59px;
 }
 
@@ -68,8 +85,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 /* Commentar */
 @media screen and (max-width: 640px) {
