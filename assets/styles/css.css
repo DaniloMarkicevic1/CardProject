@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Background, and centering */
+  min-height: 100vh;
+  font-family: "Kumbh", sans-serif;
+  background-color: #19a2ae;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Background Circles */
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 65% 100%;
+  background-position: top -400px left -220px, bottom -500px right -180px;
+}
+
+.box-shadow {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Text edits */
+.number {
+  font-weight: 400;
+  color: #6a6f81;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.middle-grey {
+  color: #6a6f81;
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.bottom-grey {
+  color: #6a6f81;
+  font-weight: 400;
+  font-size: 10px;
+  padding-top: 6px;
+  letter-spacing: 2px;
+}
+
+.text-padding {
+  padding-top: 10px;
+}
+
+/* ------- */
+.top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: white;
+}
+
+.top img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  min-height: 100%;
+}
+
+/* Middle part, Avatar icon, Name,vim index.html Age, City */
+.middle {
+  text-align: center;
+  background-color: white;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.middle img {
+  border: 5px solid white;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 15px;
+  margin-top: -59px;
+}
+
+/* Bottom part of image, Folowers, Likes, Photos */
+.bottom {
+  border-top: 1px solid rgba(150, 150, 150, 0.2);
+  padding: 25px 0 25px 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* Commentar */
+@media screen and (max-width: 640px) {
+  body {
+    background-position: top -300px left -350px, bottom -300px right -420px;
+    background-size: 150%, 160% 90%;
+  }
+
+  .box-shadow {
+    width: 88%;
+  }
+}
+/* Ok, lets make another comment */
+/* Why is my git commit not showing */
+
+/*# sourceMappingURL=css.css.map */
