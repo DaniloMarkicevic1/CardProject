@@ -7,7 +7,7 @@
 body {
   /* Background, and centering */
   min-height: 100vh;
-  font-family: "Kumbh", sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   background-color: #19a2ae;
   display: flex;
   align-items: center;
@@ -31,6 +31,7 @@ body {
 }
 
 .bold {
+  color: #2d3248;
   font-weight: 700;
   font-size: 18px;
 }
@@ -107,7 +108,5 @@ body {
     width: 88%;
   }
 }
-/* Ok, lets make another comment */
-/* Why is my git commit not showing */
 
 /*# sourceMappingURL=css.css.map */

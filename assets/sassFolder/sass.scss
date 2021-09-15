@@ -29,7 +29,9 @@ body {
   color: $Darkgrayishblue;
 }
 .bold {
-  font-weight: $boldFontWeight;
+  color: $Verydarkdesaturatedblue;
+  // font-weight: $boldFontWeight;
+  font-weight: 700;
   font-size: 18px;
 }
 .middle-grey {

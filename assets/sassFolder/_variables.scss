@@ -1,14 +1,13 @@
 // Font
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
-$fontFam: "Kumbh", sans-serif;
+$fontFam: "Kumbh Sans", sans-serif;
 $regularFontWeight: 400;
 $boldFontWeight: 700;
 // Colors
-  $Darkcyan: hsl(185, 75%, 39%);
-  $Verydarkdesaturatedblue: hsl(229, 23%, 23%);
-  $Darkgrayishblue: hsl(227, 10%, 46%);
-  $Darkgray: hsl(0, 0%, 59%, 0.2);
-
+$Darkcyan: hsl(185, 75%, 39%);
+$Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+$Darkgrayishblue: hsl(227, 10%, 46%);
+$Darkgray: hsl(0, 0%, 59%, 0.2);
 
 // Borders
 $border-radius: 15px;
