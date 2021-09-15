@@ -97,7 +97,7 @@ body {
   border-bottom-right-radius: 15px;
 }
 
-/* Commentar */
+/* Small devices */
 @media screen and (max-width: 640px) {
   body {
     background-position: top -300px left -350px, bottom -300px right -420px;
@@ -106,6 +106,17 @@ body {
 
   .box-shadow {
     width: 88%;
+  }
+}
+/* Orientaion */
+@media (max-height: 480px) and (max-width: 768px) and (orientation: landscape) {
+  body {
+    background-size: 100%, 100%;
+    background-position: top -400px left -450px, bottom -500px right -300px;
+  }
+
+  .box-shadow {
+    width: 350px;
   }
 }
 

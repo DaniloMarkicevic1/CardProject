@@ -14,7 +14,7 @@ body {
   align-items: center;
   justify-content: center;
   /* Background Circles */
-  background-image: $imageOneUrl,$imageTwoUrl;
+  background-image: $imageOneUrl, $imageTwoUrl;
   background-repeat: no-repeat, no-repeat;
   background-size: 65% 100%;
   background-position: $background-position;
@@ -90,7 +90,7 @@ body {
   border-bottom-left-radius: $border-radius;
   border-bottom-right-radius: $border-radius;
 }
-/* Commentar */
+/* Small devices */
 @media screen and (max-width: 640px) {
   body {
     background-position: $smallScreenBackPos;
@@ -100,4 +100,14 @@ body {
     width: 88%;
   }
 }
-
+/* Orientaion */
+@media (max-height: 480px) and (max-width: 768px) and (orientation: landscape) {
+  body {
+    // background-color: black;
+    background-size: 100%, 100%;
+    background-position: top -400px left -450px, bottom -500px right -300px;
+  }
+  .box-shadow {
+    width: 350px;
+  }
+}
