@@ -1,14 +1,14 @@
-// Font-family
+// Font
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 $fontFam: "Kumbh", sans-serif;
 $regularFontWeight: 400;
 $boldFontWeight: 700;
-
 // Colors
-$Darkcyan: hsl(185, 75%, 39%);
-$Verydarkdesaturatedblue: hsl(229, 23%, 23%);
-$Darkgrayishblue: hsl(227, 10%, 46%);
-$Darkgray: hsl(0, 0%, 59%, 0.2);
+  $Darkcyan: hsl(185, 75%, 39%);
+  $Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+  $Darkgrayishblue: hsl(227, 10%, 46%);
+  $Darkgray: hsl(0, 0%, 59%, 0.2);
+
 
 // Borders
 $border-radius: 15px;
@@ -20,4 +20,4 @@ $box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 $background-position: top -400px left -220px, bottom -500px right -180px;
 $smallScreenBackPos: top -300px left -350px, bottom -300px right -420px;
 $imageOneUrl: url("../images/bg-pattern-top.svg");
-$imageTwoUrl: url("../images/bg-pattern-bottom.svg")
+$imageTwoUrl: url("../images/bg-pattern-bottom.svg");
