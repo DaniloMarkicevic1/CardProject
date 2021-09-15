@@ -91,7 +91,7 @@ body {
   border-bottom-right-radius: $border-radius;
 }
 /* Small devices */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 400px) {
   body {
     background-position: $smallScreenBackPos;
     background-size: 150%, 160% 90%;
@@ -111,3 +111,4 @@ body {
     width: 350px;
   }
 }
+

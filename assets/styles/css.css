@@ -98,7 +98,7 @@ body {
 }
 
 /* Small devices */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 400px) {
   body {
     background-position: top -300px left -350px, bottom -300px right -420px;
     background-size: 150%, 160% 90%;
