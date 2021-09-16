@@ -40,7 +40,7 @@ body {
   color: #19a2ae;
   padding-top: 8px;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .bottom-grey {
@@ -55,13 +55,12 @@ body {
   padding-top: 10px;
 }
 
-/* ------- */
+/* Top Part */
 .top {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-color: white;
 }
-
 .top img {
   width: 100%;
   border-top-left-radius: 15px;
@@ -76,7 +75,6 @@ body {
   position: relative;
   padding-bottom: 20px;
 }
-
 .middle img {
   border: 5px solid white;
   border-radius: 50%;
