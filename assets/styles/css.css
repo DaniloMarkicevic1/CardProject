@@ -19,6 +19,7 @@ body {
   background-position: top -400px left -220px, bottom -500px right -180px;
 }
 body .box-shadow {
+  width: 325px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -96,11 +97,8 @@ body .box-shadow .bottom {
     background-position: top -300px left -350px, bottom -300px right -420px;
     background-size: 150%, 160% 90%;
   }
-  body .box-shadow {
-    width: 88%;
-  }
 }
-/* Orientaion */
+/* Small device Landscape */
 @media (max-height: 480px) and (max-width: 768px) and (orientation: landscape) {
   body {
     background-size: 100%, 100%;
