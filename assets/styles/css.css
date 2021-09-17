@@ -74,7 +74,8 @@ body .box-shadow .middle img {
   border: 6px solid white;
   border-radius: 50%;
   margin-bottom: 15px;
-  margin-top: -59px;
+  margin-top: -54px;
+  box-shadow: 0px -4px 2px -1px rgba(0, 0, 0, 0.1);
 }
 
 /* Bottom part of image, Folowers, Likes, Photos */
