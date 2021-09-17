@@ -35,7 +35,7 @@ body .box-shadow .middle .number, body .box-shadow .bottom .number {
   color: #6a6f81;
 }
 body .box-shadow .middle .middle-grey, body .box-shadow .bottom .middle-grey {
-  color: #19a2ae;
+  color: #6a6f81;
   padding-top: 8px;
   font-weight: 400;
   font-size: 14px;
@@ -53,15 +53,13 @@ body .box-shadow .middle .text-padding, body .box-shadow .bottom .text-padding {
 
 /* Top Part */
 body .box-shadow .top {
+  height: 142px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-color: white;
-}
-body .box-shadow .top img {
-  width: 100%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  height: 140px;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3) inset;
 }
 
 /* Middle part, Avatar icon, Name,vim index.html Age, City */
@@ -72,9 +70,9 @@ body .box-shadow .middle {
   padding-bottom: 20px;
 }
 body .box-shadow .middle img {
-  border: 5px solid white;
+  background-color: white;
+  border: 6px solid white;
   border-radius: 50%;
-  position: relative;
   margin-bottom: 15px;
   margin-top: -59px;
 }
